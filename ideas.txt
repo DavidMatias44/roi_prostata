@@ -1,0 +1,6 @@
+Primero ser capaz de leer la imagen dicom y convertirla a un numpy array.
+
+Se puede delimitar un cuadrado donde es mucho más probable hallar a la próstata.
+ - A partir del centro se considero 15% a la derecha e izquierda.
+ - A partir del centro se considero 25% hacia arriba y abajo.
+Generar un ROI para que después se trabaje solamente en dicha región
